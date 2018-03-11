@@ -1,7 +1,7 @@
 var mysql2 = require('mysql2');
 var Sequelize = require('sequelize');
 
-var sequelize = new Sequelize('sql9225903', 'sql9225903', 'ydF92uVVV2', {
+var sequelize = new Sequelize('sql9225903', 'sql9225903', 'ydF92uVVV2', { // database name, // username // password
   host: 'sql9.freemysqlhosting.net',
   port: 3306,
   dialect: 'mysql',
