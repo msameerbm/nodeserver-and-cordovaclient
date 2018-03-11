@@ -1,0 +1,4 @@
+#Sun Mar 11 12:51:57 IST 2018
+base.0=/Users/sameer/Documents/icube/session-march11/cordovaclient/userApp/platforms/android/app/build/intermediates/transforms/dexMerger/debug/0
+renamed.0=classes.dex
+file.0=/Users/sameer/Documents/icube/session-march11/cordovaclient/userApp/platforms/android/app/build/intermediates/transforms/dexMerger/debug/0/classes.dex
