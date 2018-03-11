@@ -36,15 +36,15 @@ exports.addUser =  (req,res) => {
       lastname: req.body.lastname,
       email: req.body.email
   }
-  User.create(newuser).then(function(user) {
+  User.create(newuser).then(user => {
       return res.status(200).send(user);
-  }).catch(function(err) {
+  }).catch(err => {
       return res.status(400).send(err.message);
   });
 }
 
 
-exports.getUser = function (req, res) {
+exports.getUser = (req, res) => {
   User.findAll().then(data => {
     return res.status(200).send(data);
   }).catch(err => {
